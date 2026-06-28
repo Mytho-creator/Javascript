@@ -25,11 +25,20 @@ const obj2 = {4:"D",5:"E",6:"F"}
 const obj3 = {...obj1, ...obj2}
 // console.log(obj3);
 
-console.log(Object.keys(apUser));
-console.log(Object.values(apUser));
-console.log(Object.entries(apUser));
-console.log(apUser.hasOwnProperty("username"));
+// console.log(Object.keys(apUser));
+// console.log(Object.values(apUser));
+// console.log(Object.entries(apUser));
+// console.log(apUser.hasOwnProperty("username"));
 
 
 
+const course = {
+    courseName:"Javascript",
+    courseInstructor:"Hitesh chodahry",
+    Price:999
+}
 
+const{courseInstructor:Instructor} = course
+// console.log(courseInstructor);
+
+console.log(Instructor);
