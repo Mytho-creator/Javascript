@@ -18,10 +18,14 @@ map.set('AU',"Austalia")
 
 // console.log(map);
 
-for (const [key, value] of map) {
-    console.log(key, ":-", value);
+
+// for (const key in map) {
+//     console.log(key);     
+// }
+// for (const [key, value] of map) {
+//     console.log(key, ":-", value);
     
-}
+// }
 // for (const [key] of map) {
 //     console.log(key);  
 // }
@@ -30,11 +34,11 @@ for (const [key, value] of map) {
     
 // }
 
-const myObject = {
-    languge: "c++",
-    course : "DSA",
-    Level: "begginer"
-}
+// const myObject = {
+//     languge: "c++",
+//     course : "DSA",
+//     Level: "begginer"
+// }
 
 // console.log(Object.keys(myObject));
 // console.log(Object.entries(myObject));
